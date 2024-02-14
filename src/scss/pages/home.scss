@@ -1,0 +1,315 @@
+.banner_section {
+    .banner_text {
+        font-family: Raleway;
+
+        p {
+            font-weight: 600;
+            font-size: 19px;
+            line-height: 1.9rem;
+        }
+
+        h3 {
+            font-weight: 700;
+            font-family: Raleway;
+            font-size: var(--fs-35);
+        }
+
+        h4 {
+            font-size: var(--fs-25);
+            font-weight: 600;
+        }
+
+        .banner_heading {
+            font-weight: 700;
+            color: var(--blue);
+            font-size: var(--fs-64);
+        }
+
+        .text-black {
+            color: #1b1c1a;
+        }
+
+    }
+}
+
+.banner_button {
+    background: #b4cdff;
+    border-radius: 21px;
+    color: var(--black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--fs-16);
+    font-weight: 600;
+    text-decoration: none;
+    width: 190px;
+    text-align: center;
+    padding: 7px 38px;
+
+    a {
+        color: var(--blue);
+        text-decoration: none;
+
+    }
+}
+
+.form-control {
+    color: gray;
+    font-weight: 600;
+    font-size: 16px;
+    border: 1px solid var(--black);
+}
+.form-control:focus{
+    border: 1px solid var(--black); 
+}
+
+
+.services_section,
+.buisness_section {
+
+    .services_column {
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        background-color: white;
+        transition: 0.2s ease-in-out;
+        border: 1px solid #eef0f4;
+
+        .services_image {
+            img {
+                max-height: 230px !important;
+                width: 100%;
+            }
+        }
+
+        &:hover {
+            transform: translatey(-5px);
+        }
+
+        .services_data {
+            h3 {
+                font-size: var(--fs-28);
+                font-weight: 600;
+            }
+
+            p {
+                font-size: var(--fs-16);
+                line-height: 1.9rem;
+                font-weight: 600;
+            }
+
+
+        }
+
+        .team_data {
+            h3 {
+                font-size: var(--fs-24);
+                color: var(--blue);
+                font-weight: 600;
+            }
+
+            h5 {
+                font-size: var(--fs-20);
+                font-weight: 600;
+            }
+
+            p {
+                font-size: var(--fs-16);
+                line-height: 1.9rem;
+                font-weight: 600;
+            }
+        }
+    }
+}
+
+.started_data p {
+    font-size: var(--fs-16);
+    line-height: 1.9rem;
+    font-weight: 600;
+}
+
+.buisness_section {
+    .buisness_heaing {
+        h4 {
+            font-weight: 700;
+            font-family: Raleway;
+            font-size: var(--fs-24);
+        }
+    }
+
+    .buisness_column {
+        .buisness_sub_heading {
+            font-weight: 700;
+            font-size: var(--fs-35);
+            color: var(--blue);
+        }
+
+        p {
+            font-weight: 700;
+            font-size: var(--fs-16);
+        }
+    }
+
+
+    .technologies_column {
+        padding: 20px 20px 20px 20px;
+        background-color: transparent;
+        background-image: linear-gradient(180deg, #b2ccff, #b2ccff, #b2ccff, #b2ccff);
+        border-style: solid;
+        border-width: 1px 1px 1px 1px;
+        border-color: var(--blue);
+        border-radius: 15px 15px 15px 15px;
+
+        .technologies_image {
+            width: 100px !important;
+            height: 100px;
+            display: inline-flex !important;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            box-shadow: 0 0;
+            border: 1px solid var(--blue);
+            background: linear-gradient(180deg, #b2ccff, #b2ccff, #b2ccff, #b2ccff);
+
+            img {
+                transition-duration: 0.3s;
+
+                &:hover {
+                    transform: scale(1.1);
+                }
+            }
+
+        }
+
+        .technologies_data h4 {
+            font-size: var(--fs-18);
+            font-weight: 600;
+            color: var(--blue);
+        }
+    }
+}
+
+.buisness_button {
+    @include blue_btn;
+}
+
+.about_sec {
+    .about_heading {
+        p {
+            font-weight: 700;
+            font-size: var(--fs-16);
+            line-height: 1.9rem;
+        }
+    }
+}
+
+.sub_heading {
+    font-weight: 700;
+    font-size: var(--fs-35);
+    color: var(--blue);
+}
+
+@media all and (min-width:1200px) and (max-width:1399px) {
+    .banner_section {
+        .banner_text {
+            .banner_heading {
+                font-size: var(--fs-45) !important;
+            }
+        }
+    }
+}
+
+@media all and (min-width:992px) and (max-width:1199px) {
+
+    .services_section,
+    .buisness_section {
+        .services_text h2 {
+            font-size: var(--fs-30);
+        }
+
+        .services_data h3 {
+            font-size: var(--fs-25) !important;
+        }
+    }
+
+    .banner_section {
+        .banner_text h3 {
+            font-size: var(--fs-30) !important;
+
+            br {
+                display: none;
+            }
+        }
+
+        .banner_text {
+            .banner_heading {
+                font-size: var(--fs-42) !important;
+            }
+        }
+    }
+
+    .buisness_section {
+        .buisness_heaing h2 {
+            font-size: var(--fs-35);
+        }
+    }
+
+    .buisness_sub_heading {
+        font-size: var(--fs-30) !important;
+    }
+
+
+}
+
+@media all and (min-width:768px) and (max-width:992px) {
+    .buisness_section {
+        .buisness_heaing h2 {
+            font-size: var(--fs-35);
+        }
+    }
+
+    .banner_section {
+        .banner_text {
+            .banner_heading {
+                font-size: var(--fs-40) !important;
+            }
+        }
+    }
+
+    .buisness_sub_heading {
+        font-size: var(--fs-27) !important;
+    }
+
+}
+
+@media all and (min-width:320px) and (max-width:767px) {
+
+    .services_section,
+    .buisness_section {
+
+        .services_data h3 {
+            font-size: var(--fs-25) !important;
+        }
+    }
+
+    .banner_section {
+        padding: 100px 0px !important;
+
+        .banner_text h3 {
+            font-size: var(--fs-25) !important;
+
+            br {
+                display: none;
+            }
+        }
+
+        .banner_text {
+            .banner_heading {
+                font-size: var(--fs-35) !important;
+            }
+        }
+    }
+
+
+    .buisness_sub_heading {
+        font-size: var(--fs-27) !important;
+    }
+}
