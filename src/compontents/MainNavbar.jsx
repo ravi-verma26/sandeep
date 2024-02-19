@@ -6,9 +6,11 @@ const MainNavbar = () => {
         <div >
             <nav className="navbar main_navbar navbar-expand-lg bg-light">
                 <div className="container">
-                    <a className="navbar-brand navbar_logo py-1" href="/">
-                        <img src="/images/logo.webp" alt="bannerr-logo" className='img-fluid' />
-                    </a>
+                    <NavLink className="navbar-brand navbar_logo py-1" to="/">
+                        {/* <img src="/images/logo.webp" alt="bannerr-logo" className='img-fluid' /> */}
+                        <img src="/images/logo4.png" alt="bannerr-logo" className='img-fluid' />
+                        <p className='main-text'>Code Web Byte</p>
+                    </NavLink>
                     <button className="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <img src="/images/menu.svg" alt="menu_btn" />
                     </button>

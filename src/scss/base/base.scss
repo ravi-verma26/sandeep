@@ -89,6 +89,18 @@ section {
     background: linear-gradient(90deg, #024261, #3161c3, #46a3d9, #15429b);
 }
 
+.main-text {
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+    height: 65px !important;
+}
+
+
+
+
 .main_heading {
     font-weight: 700;
     font-size: var(--fs-42);
@@ -118,6 +130,10 @@ section {
 @media all and (min-width:320px) and (max-width:767px) {
     .main_heading {
         font-size: var(--fs-30);
+    }
+
+    .main-text {
+        padding-bottom: 5px;
     }
 
     section {
