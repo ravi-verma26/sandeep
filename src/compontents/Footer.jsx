@@ -11,7 +11,7 @@ const Footer = () => {
                             <div className="col-12 col-sm-7 col-lg-4">
                                 <div className="footer_logo_column mb-4">
                                     <div className="footer_img">
-                                        <img src='./images/footer-logo.webp' alt='footer-logo' className='img-fluid' />
+                                        <img src='./logo2.png' alt='footer-logo' className='img-fluid' />
                                     </div>
                                     <div className="footer_text">
                                         <p>Webdabhands provide Professional New <br /> Enterprise website design information</p>

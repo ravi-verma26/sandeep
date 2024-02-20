@@ -158,7 +158,7 @@ const Services = () => {
                         </div>
                         <div className="col-12 col-md-12 col-xxl-6" data-aos="fade-left" data-aos-duration="3000">
                             <div className="web_development_img mb-4">
-                                <img src="./images/next.webp" alt="next" className='img-fluid' />
+                                <img src="./images/nextjs1.webp" alt="next" className='img-fluid' />
                             </div>
                         </div>
                     </div>
