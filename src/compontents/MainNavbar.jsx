@@ -15,7 +15,8 @@ const MainNavbar = () => {
                         <img src="/images/menu.svg" alt="menu_btn" />
                     </button>
                     <div className="collapse navbar_link_main navbar-collapse" id="navbarSupportedContent">
-                        <ul className="navbar-nav navbar_link me-auto ms-lg-5 gap-lg-4 mb-2 mb-lg-0">
+                        <div className='child'>
+                        <ul className="navbar-nav navbar_link me- auto ms-lg-5 gap-lg-4 mb-2 mb-lg-0">
                             <li className="nav-item">
                                 <NavLink className="nav-link" aria-current="page" to="/">Home</NavLink>
                             </li>
@@ -29,6 +30,7 @@ const MainNavbar = () => {
                                 <NavLink className="nav-link " to="/contact-us">Contact us</NavLink>
                             </li>
                         </ul>   
+                        </div>
                     </div>
                 </div>
             </nav>

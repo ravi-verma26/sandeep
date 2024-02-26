@@ -21,7 +21,7 @@ const Home = () => {
       aos: "fade-left",
       images: "mobile-development.webp",
       heading: "Mobile Development ",
-      para: "CodeWebByte is dedicated to crafting custom, user-centric mobile applications for iOS, Android, and cross-platform. Partner with us to elevate your mobile presence with innovative, high-quality mobile solutions that are tailored to meet your specific needs and exceed your expectations.",
+      para: "CodeWebByte is dedicated to crafting custom, user-centric mobile applications for iOS, Android,react-native and cross-platform so all. Partner with us to elevate your mobile presence with innovative, high-quality and mobile solutions that are tailored to meet your specific needs and exceed your expectations.",
     },
     {
       aos: "fade-right",
@@ -46,25 +46,25 @@ const Home = () => {
     {
       // images: "tech_j.webp",
       // technologies: "MONGO DB",
-      images: "angular.png",
+      images: "angular1.png",
       technologies: "ANGULAR",
     },
     {
       //   images: "html5.webp",
       //   technologies: "HTML 5",
-      images: "reactnative.png",
+      images: "reactnative1.png",
       technologies: "REACT NATIVE",
     },
     {
       //   images: "CSS.webp",
       //   technologies: "CSS",
-      images: "nodejs.png",
+      images: "nodejs1.png",
       technologies: "NODE JS",
     },
     {
       //   images: "BOOTSTRAP.webp",
       //   technologies: "BOOTSTRAP",
-      images: "python.png",
+      images: "python1.png",
       technologies: "PYTHON",
     },
   ];
@@ -236,7 +236,7 @@ const Home = () => {
               <div
                 className="col-12 col-md-6 col-xl-4"
                 data-aos={`${data.aos}`}
-                data-aos-duration="3000"
+                data-aos-duration="2000"
                 key={i}
               >
                 <div className="services_column p-3 rounded-3 mb-4">
@@ -248,7 +248,7 @@ const Home = () => {
                     />
                   </div>
                   <div className="services_data text-center">
-                    <h3>{data.heading}</h3>
+                    <h3 className="digital">{data.heading}</h3>
                     <p>{data.para}</p>
                     <button type="text" className="buisness_button rounded-2">
                       Get start{" "}
